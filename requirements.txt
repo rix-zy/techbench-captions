@@ -1,0 +1,3 @@
+faster-whisper
+# faster-whisper (up to 1.2.x) calls av.open(..., metadata_errors=...), which PyAV 19 removed.
+av>=11,<19
